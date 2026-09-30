@@ -1,14 +1,10 @@
 # InvoicePilot AI
 
-AI-first invoicing workspace for freelancers and small businesses.
+AI-first invoicing workspace with a Vercel serverless OpenRouter API.
 
-## Features
-- Invoice builder with live totals
-- OpenRouter AI workflows
-- CSV export and browser PDF/print
-- Local draft storage
-- Skiper40-inspired animated navigation
-- Vercel serverless `/api/ai` endpoint
+## Deploy
+1. Import this repository into Vercel.
+2. Add `OPENROUTER_API_KEY` as a Vercel Environment Variable.
+3. Optionally set `OPENROUTER_MODEL` (default: `openrouter/auto`).
 
-## Security
-Keep `OPENROUTER_API_KEY` server-side in Vercel environment variables. Do not commit secrets.
+Never commit API keys to this repository.
